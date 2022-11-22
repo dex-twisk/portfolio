@@ -1914,6 +1914,8 @@ section:nth-of-type(2) .wrap-content h3 {
     justify-content: center;
     align-items: center;
     gap: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .workfooter div h3 {
