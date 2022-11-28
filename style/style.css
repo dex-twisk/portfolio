@@ -911,10 +911,10 @@ section:nth-of-type(2) .wrap-content h3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1600px;
-    
-   background-color: var(--vlak);
-   border-radius: 10px;
-   padding: 1em;
+    margin: 2em;
+    background-color: var(--vlak);
+    border-radius: 10px;
+    padding: 1em;
 }
 
 .maas-main section:nth-of-type(5) .maas-container .maas-wrap-two div ul {
@@ -1035,6 +1035,7 @@ section:nth-of-type(2) .wrap-content h3 {
 .maas-main section:nth-of-type(6) .maas-container .verbeteringen-wrap {
     display: flex;
     gap: 2em;
+    margin: 0 2em 0 2em;
 }
 
 .maas-main section:nth-of-type(6) .content img {
@@ -1061,7 +1062,7 @@ section:nth-of-type(2) .wrap-content h3 {
 .maas-main section:nth-of-type(6) .content li {
     font-size: 1em;
     line-height: 1.5em;
-    color: var(--border-color);
+    color: var(--tekst-color);
 }
 
 .maas-main section:nth-of-type(7) .verbeteringen-wrap {
